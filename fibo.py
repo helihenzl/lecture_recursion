@@ -7,7 +7,7 @@ def recursive_nth_fibo(n):
         return recursive_nth_fibo(n - 1) + recursive_nth_fibo(n - 2)
 
 def main():
-    n = 2
+    n = int(input("Zadejte počet členů Fibonacciho posloupnosti: "))
     print(recursive_nth_fibo(n))
 
 if __name__ == "__main__":
